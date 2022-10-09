@@ -8,9 +8,22 @@
 		body{
  			background-image: url('/b1.jpg');
   			background-repeat: no-repeat;
- 			background-size: 100% 100%;
+ 			background-size: 100% 100%; 
+			margin:0;
 		}
+		video{
+    		position: fixed;
+    		right: 0;
+   		bottom: 0;
+    		min-width: 100%;
+    		min-height: 100%;
+    		width: auto;
+    		height: auto;
+    		z-index: -100;
+    		-webkit-filter: grayscale(20%);
+}
 	</style>
+	<video src="/v1.mp4" loop="loop" autoplay="autoplay"></video>
 </head>
 <body>
 	<p style="text-align:center;"><a href="https://www.cegroup.buzz" title="CE Group"><img src="/p1.jpg" width="194" height="70" /></a></p>
